@@ -1,0 +1,33 @@
+<script>
+  var miArreglo = [
+    [1, 2, 3],
+    [4, 5, 6],
+    [7, 8, 9],
+  ];
+  console.log(miArreglo);
+  /*
+Arreglo:            [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
+índices:                0          1          2
+índices internos:     0 1 2      0 1 2      0 1 2
+*/
+
+  console.log(miArreglo[2][1]);
+  var estaciones = ["Invierno", "Otoño", "Primavera"];
+  var estacion;
+  // Agregar elemento al final del array
+  estaciones.push("Verano");
+  console.log(estaciones);
+
+  // Eliminar el último elemento
+  estacion = estaciones.pop();
+  console.log(estaciones);
+  console.log(estacion);
+
+  // Eliminar el principio elemento
+  estaciones.shift();
+  console.log(estaciones);
+
+  // Agregar al principio del arreglo
+  estaciones.unshift("HOLA");
+  console.log(estaciones);
+</script>
